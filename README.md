@@ -49,10 +49,10 @@ valid values of address and index see:
 
 Examples:
 
-  List only Line Out setttings (address=3):
+  Print only Line Out setttings (address=3):
     rmeadi.showsettings.sh --filter=3
 
-  List Volume setting (index=12) for all outputs (addresses 3, 6 and 9):
+  Print only Volume setting (index=12) for all outputs (addresses 3, 6 and 9):
     rmeadi.showsettings.sh --filter=3:12,6:12,9:12
 ```
 
@@ -82,7 +82,7 @@ Setup: 9:        Setup 9
 DONE
 ```
 
-List only Line Out setttings (address=3):
+Print only Line Out setttings (address=3):
 ```
 ]$ rmeadi.showsettings.sh --filter=3
 
@@ -122,7 +122,7 @@ Setup: 9:        Setup 9
 DONE
 ```
 
-List Volume setting (index=12) for all outputs (addresses 3, 6 and 9):
+Print only Volume setting (index=12) for all outputs (addresses 3, 6 and 9):
 ```
 ]$ rmeadi.showsettings.sh --filter=3:12,6:12,9:12
 

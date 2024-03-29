@@ -338,10 +338,10 @@ valid values of address and index see:
 
 Examples:
 
-  List only Line Out setttings (address=3):
+  Print only Line Out setttings (address=3):
     $(basename "${0}") --filter=3
 
-  List Volume setting (index=12) for all outputs (addresses 3, 6 and 9):
+  Print only Volume setting (index=12) for all outputs (addresses 3, 6 and 9):
     $(basename "${0}") --filter=3:12,6:12,9:12
 EOF
 }
